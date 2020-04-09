@@ -1,0 +1,14 @@
+query-configuration.json
+env.yaml
+config/db-credentials.yaml.example
+config/gservices-config.yaml.example
+queries/*
+!queries/dummy-context-1
+!queries/dummy-context-2
+!queries/dummy-context-3
+__pycache__
+.ipynb_checkpoints
+gservices_utils/.git
+gservices_utils/__pycache__
+gservices_utils/.gitignore
+credentials/
