@@ -1,0 +1,30 @@
+[
+    { "context" : "dummy-context-1", 
+        "query_file" : "sqlquery-example-1.txt",
+        "previous_version" : "Sheet name that will be used to store the previous version of the data",
+        "column_dtype"  :{
+            "sql_table_column_1" : "float",
+            "sql_table_column_2" : "int"
+        }
+    },
+    { "context" : "dummy-context-2", 
+        "query_file" : "sqlquery-example-2.txt",
+        "sheet_name" : "Other sheet in same spreadsheet",
+        "previous_version" : "Previous Version Sheet name 2",
+        "column_dtype" : {
+            "another_table_column_1" : "int",
+            "another_table_column_2" : "float"
+        }
+    }
+    { "context" : "dummy-context-3",
+        "query_file" : "sqlquery-example-3.txt",
+	"spreadsheet_id" : "Other Spreadsheet Id"
+        "sheet_name" : "Other sheet in same spreadsheet",
+        "previous_version" : "Previous Version Sheet name 3",
+        "column_dtype" : {
+            "another_table_column_5" : "int",
+            "another_table_column_8" : "float"
+        }
+    }
+
+]
