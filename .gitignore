@@ -1,7 +1,7 @@
 query-configuration.json
 env.yaml
-config/db-credentials.yaml.example
-config/gservices-config.yaml.example
+config/db-credentials.yaml
+config/gservices-config.yaml
 queries/*
 !queries/dummy-context-1
 !queries/dummy-context-2
