@@ -1,0 +1,16 @@
+
+# SpreadSheet ID
+default_spreadsheet_id: 'spreadsheet_id'
+
+# Sheet Name
+default_sheet_name: 'sheet_name'
+
+# The "credentials.json" file of the OAuth client to be used, and will be hosted in the "input/credentials/" path.
+# Don't include .json extension
+credentials_path: 'input/credentials/credentials.json'
+
+
+# The recommended scope to be use is 'https://www.googleapis.com/auth/spreadsheets'
+scopes:
+    - 'https://www.googleapis.com/auth/spreadsheets'
+    
